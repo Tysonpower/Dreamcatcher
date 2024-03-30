@@ -85,7 +85,7 @@ void loop()
     }
   }
   // reboot every 6h to avoid errors (21600000UL)
-  if (millis() >= 7200000UL)
+  if (millis() >= 3600000UL)
   {
     Serial.println("---------------------------------------");
     Serial.println("Doing Restart to avoid errors...");
